@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1Generator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneratorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/spinnerHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Choose your journey:"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/generateItemsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:text="Generate items list!"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/button"/>
+
+    <com.example.journeyapp.IndicatingView
+        android:id="@+id/generated_graphic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#888888"
+        android:layout_marginTop="320dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.example.journeyapp.ProgressBarIndicatingView
+        android:id="@+id/progress_bar"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <com.example.journeyapp.ProgressBarIndicatingView
+        android:id="@+id/progress_bar_white"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="right"
+        android:layout_height="50dp"/>
+
+
+
+</FrameLayout>

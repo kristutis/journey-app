@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuGenerator">
+
+    <fragment
+        android:id="@+id/menuGenerator"
+        android:name="com.example.journeyapp.GeneratorFragment"
+        android:label="Welcome, wanderer"
+        tools:layout="@layout/fragment_generator" />
+    <fragment
+        android:id="@+id/menuReminders"
+        android:name="com.example.journeyapp.RemindersFragment"
+        android:label="Sensors"
+        tools:layout="@layout/fragment_reminders" />
+    <fragment
+        android:id="@+id/backpackFragment"
+        android:name="com.example.journeyapp.BackpackFragment"
+        android:label="Items to pack"
+        tools:layout="@layout/fragment_backpack" />
+    <fragment
+        android:id="@+id/menuSettings"
+        android:name="com.example.journeyapp.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

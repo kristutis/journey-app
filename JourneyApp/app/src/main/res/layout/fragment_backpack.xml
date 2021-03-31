@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1BackPack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackpackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/journeyTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Your journey begins here"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextTextSortItems"
+        android:layout_marginTop="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="search for an item..."
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/buttonFilterItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="210dp"
+        android:layout_toLeftOf="@+id/editTextTextSortItems"
+        android:text="Filter items alphabetically"
+        android:textAllCaps="false"
+        android:textColor="#686868"
+        android:textSize="15dp"
+        />
+
+    <ListView
+        android:layout_marginTop="200dp"
+        android:id="@+id/listItemsView"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+
+         />
+
+    <Button
+        android:id="@+id/buttonAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add extra item"
+        android:textAllCaps="false"
+        android:textColor="#686868"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/generatePostOnFacebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:text="Post on facebook!"
+        android:textAllCaps="false"
+        android:textColor="#686868"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/generateNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:text="generate notification"
+        android:textAllCaps="false"
+        android:textColor="#686868"
+        android:textSize="15dp"
+         />
+
+
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuGenerator"
+        android:icon="@drawable/ic_journey"
+        android:title="Generator"/>
+
+    <item
+        android:id="@+id/backpackFragment"
+        android:icon="@drawable/ic_backpack"
+        android:title="Backpack"/>
+
+    <item
+        android:id="@+id/menuReminders"
+        android:icon="@drawable/ic_tools"
+        android:title="Tools"/>
+
+    <item android:title="Management">
+        <menu>
+
+            <item
+                android:id="@+id/menuAdd"
+                android:icon="@drawable/ic_add"
+                android:title="Feature1"/>
+
+            <item
+                android:id="@+id/menuRemove"
+                android:icon="@drawable/ic_remove"
+                android:title="Feature2"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings"
+                />
+        </menu>
+    </item>
+</menu>
